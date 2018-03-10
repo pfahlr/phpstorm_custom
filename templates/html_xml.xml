@@ -1,0 +1,14 @@
+<templateSet group="html/xml">
+  <template name="fgt" value="&lt;div class=&quot;form-group&quot;&gt;&#10;  &lt;label for=&quot;$NAME$&quot;&gt;$NAME$&lt;/label&gt;&#10;  &lt;input name=&quot;$NAME$&quot; type=&quot;text&quot; id=&quot;$NAME$&quot; class=&quot;form-control&quot; placeholder=&quot;&quot;/&gt;&#10;&lt;/div&gt;" description="form-group-text" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="name" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fgta" value="&lt;div class=&quot;form-group&quot;&gt;&#10;  &lt;label for=&quot;$NAME$&quot;&gt;$NAME$&lt;/label&gt;&#10;  &lt;textarea name=&quot;$NAME$&quot; type=&quot;text&quot; id=&quot;$NAME$&quot; class=&quot;form-control&quot; placeholder=&quot;&quot;&gt;&lt;/textarea&gt;&#10;&lt;/div&gt;" description="form group textarea" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
