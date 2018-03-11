@@ -11,4 +11,10 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="fgs" value="&lt;div class=&quot;form-group&quot;&gt;&#10;  &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$LABEL$&lt;/button&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="Submit" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
